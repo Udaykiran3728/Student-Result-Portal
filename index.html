@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Result Portal</h1>
+        <label for="rollNumber">Enter RollNumber</label><br/>
+        <input type="text" id="rollNumber">
+        <button onclick="searchResult()">Search Result</button>
+        <div id="resultContainer"></div>
+        <button class="shareButton hidden" onclick="printResult()">Print Result</button>
+        <button class="shareButton hidden" onclick="shareByEmail()">Share via Email</button>
+        <button class="shareButton hidden" onclick="shareByWhatsapp()">Share via WhatsApp</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
